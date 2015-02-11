@@ -3,8 +3,7 @@
  */
 
 function element(val) {
-    this.content;
-    this.next;
+    this.next = undefined;
 
     this.content = val;
 }

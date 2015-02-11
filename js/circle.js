@@ -67,7 +67,7 @@ function getFormData() {
         radiusVal = 200;
     }
 
-    if (xOriginVal === undefined | isNaN(xOriginVal)) {
+    if (xOriginVal === undefined || isNaN(xOriginVal)) {
         xOriginVal = 250;
     }
 

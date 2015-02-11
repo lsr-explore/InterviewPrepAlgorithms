@@ -23,7 +23,7 @@ linkedList.prototype.push = function(val){
     }
 }
 
-linkedList.prototype.delete = function(val) {
+linkedList.prototype.deleteLink = function(val) {
     var current = this.head;
     var last;
     while(current){

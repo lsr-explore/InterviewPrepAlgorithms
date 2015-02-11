@@ -15,20 +15,20 @@ function linkedListDemo() {
 //    sll.push(4);
 //    sll.reportList();
 //
-//    sll.delete(3);
+//    sll.deleteLink(3);
 //
 //    sll.reportList();
 //
 //    sll.push("a");
 //    sll.reportList();
 //
-//    sll.delete(2);
+//    sll.deleteLink(2);
 //    sll.reportList();
 //
 //    sll.push("b");
 //    sll.reportList();
 //
-//    sll.delete("b");
+//    sll.deleteLink("b");
 //    sll.reportList();
 //
 //    sll.clearList();
