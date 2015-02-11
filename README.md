@@ -27,4 +27,5 @@ These are examples of algorithms and data structures to review when preparing fo
   
 ### References:
   * [Google Candidate Coaching Hangout - Video] (https://www.youtube.com/watch?v=oWbUtlUhwa8)
-    Take special note at time 13:00 - discussion of how to approach underspecified problems.
+    
+  Take special note at time 13:00 - discussion of how to approach underspecified problems.
