@@ -24,7 +24,6 @@ These are examples of algorithms and data structures to review when preparing fo
   * Address scalability
   * Address extensibility
   
-  
 ### References:
   * [Google Candidate Coaching Hangout - Video] (https://www.youtube.com/watch?v=oWbUtlUhwa8)
     
