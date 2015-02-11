@@ -1,0 +1,60 @@
+/*
+* {
+  outline: 2px solid lightgrey;
+}
+*/
+
+fieldset {
+    width: 300px;
+}
+
+fieldset p {
+    clear: both;
+    padding: 5px;
+}
+
+label.labelField {
+    text-align: right;
+    width: 100px;
+    float: left;
+    font-weight: bold;
+}
+
+input.textBox {
+    width: 160px;
+    float: left;
+    margin-left: 5px;
+}
+input.checkbox {
+    font-weight: bold;
+}
+
+#appArea {
+    margin: 5px;
+    height: 300px;
+    width: 1000px;
+
+}
+
+#controlsArea {
+    display: inline-block;
+    height: 290px;
+    width: 400px;
+    margin: 5px;
+
+
+
+}
+#drawingArea {
+    display: inline-block;
+    height: 520px;
+    width: 520px;
+    margin: 5px;
+    outline: 2px solid lightblue;
+
+}
+
+#drawingCanvas {
+    margin: 5px;
+    outline: 2px solid lightgrey;
+}
