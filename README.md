@@ -6,7 +6,7 @@ These are examples of algorithms and data structures to review when preparing fo
 ### General Scoping
   Before diving in, make sure you understand the scope of the problem you are being asked to solve
     * What is the expected behavior
-    *  What are the inputs?  (data structure, units, etc.)
+    * What are the inputs?  (data structure, units, etc.)
     * What are the outputs?
     * Any special considerations (should the algorithm be stable?)
     * If you don't know the formula or definition of a term, ask.
