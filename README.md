@@ -5,6 +5,7 @@ These are examples of algorithms and data structures to review when preparing fo
 
 ### General Scoping
   Before diving in, make sure you understand the scope of the problem you are being asked to solve
+  
     * What is the expected behavior
     * What are the inputs?  (data structure, units, etc.)
     * What are the outputs?
@@ -25,5 +26,5 @@ These are examples of algorithms and data structures to review when preparing fo
   
   
 ### References:
-  * Google Candidate Coaching Hangout - Video (https://www.youtube.com/watch?v=oWbUtlUhwa8)
+  * [Google Candidate Coaching Hangout - Video] (https://www.youtube.com/watch?v=oWbUtlUhwa8)
     Take special note at time 13:00 - discussion of how to approach underspecified problems.
