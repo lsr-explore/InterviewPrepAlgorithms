@@ -3,7 +3,7 @@
  */
 
 
-
+//var element = require("./element.js");
 
 function stack(){
     this.head = null;
@@ -36,19 +36,19 @@ stack.prototype.pop = function(){
 }
 
 
-
-stack.prototype.reportList = function() {
-    console.log("Linked List contents....")
+stack.prototype.clearList = function() {
+    this.head = null;
+}
+stack.prototype.reportList = function(consoleOutput) {
+    displaySingleMessage("Stack contents....", consoleOutput);
     var current = this.head;
     while (current) {
         console.log(current.content);
+        displaySingleMessage(current.content, consoleOutput);
         current = current.next;
     }
 }
 
-
-
-stack.prototype.clearList = function() {
-    this.head = null;
-}
+// comment out when running tests from html page
+//module.exports =  stack;
 

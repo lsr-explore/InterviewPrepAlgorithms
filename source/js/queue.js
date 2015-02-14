@@ -42,11 +42,11 @@ queue.prototype.isEmpty = function() {
     return(this.head === undefined);
 }
 
-queue.prototype.reportList = function() {
-    console.log("Linked List contents....")
+queue.prototype.reportList = function(consoleOutput) {
+    displaySingleMessage("Queue contents....", consoleOutput);
     var current = this.head;
     while (current) {
-        console.log(current.content);
+        displaySingleMessage(current.content, consoleOutput);
         current = current.next;
     }
 }

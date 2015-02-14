@@ -1,0 +1,141 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Algorithms</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+      <link rel="stylesheet" href="css/styles.css"/>
+  </head>
+  <body>
+
+  <nav class="top-bar" data-topbar role="navigation" data-options="is_hover: true">
+      <ul class="title-area">
+          <li class="name">
+              <h1><a href="#">Home</a></h1>
+          </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+              <li class="active"><a href="#">Clear all</a></li>
+              <li class="has-dropdown">
+                  <a href="#">Right Button Dropdown</a>
+                  <ul class="dropdown">
+                      <li><a href="#">First link in dropdown</a></li>
+                      <li class="active"><a href="#">Active link in dropdown</a></li>
+                  </ul>
+              </li>
+          </ul>
+
+          <!-- Left Nav Section -->
+          <ul class="left">
+              <li><a href="#" id="dataStructures">Data structures</a></li>
+              <li><a href="#" id="sorting">Sorting</a></li>
+              <li><a href="#" id="anagram">Anagram</a></li>
+              <li><a href="#" id="canvas">Canvas</a></li>
+          </ul>
+      </section>
+  </nav>
+  <div class="row" id="dataStructureControls">
+
+      <div class="large-12 columns">
+
+          <a href="#" class="small round button" id="stack">Stack</a>
+          <a href="#" class="small round button" id="queue">Queue</a>
+          <a href="#" class="small round button" id="linkedList">Linked List</a>
+
+      </div>
+  </div>
+  <hr>
+  <div class="row">
+      <div class="large-12 columns">
+          <div class="panel" id = "algorithmPanel">
+              <h5>Algorithm output</h5>
+
+              <div id="console">&nbsp;</div>
+
+          </div>
+       </div>
+ </div>
+  <div class="row">
+      <div class="large-12 columns">
+          <div class="panel" id="circlePanel">
+              <div id="appArea">&nbsp;
+                  <div id="canvasControls" class="large-3 columns">&nbsp;
+                      <form>
+                          <fieldset>
+                              <legend> Circle Positioning and Sizing</legend>
+                              <p>
+                                  <label class="labelField" for="radius">Radius:</label>
+                                  <input type="text" name="radiusInput" id="radius" class="textBox"/>
+                              </p>
+
+                              <p>
+                                  <label class="labelField" for="xOrigin">X-Origin:</label>
+                                  <input type="text" name="xOriginInput" id="xOrigin" class="textBox"/>
+                              </p>
+
+                              <p>
+                                  <label class="labelField" for="yOrigin">Y-Origin:</label>
+                                  <input type="text" name="yOriginInput" id="yOrigin" class="textBox"/>
+                              </p>
+                          </fieldset>
+                          <fieldset>
+                              <legend> Drawing Attributes</legend>
+
+                              <p>
+                                  <label class="labelField" for="blur">Blur:</label>
+                                  <input type="text" name="blurInput" id="blur" class="textBox"/>
+                              </p>
+                              <p>
+                                  <label class="labelField" for="lineWidth">Line Width:</label>
+                                  <input type="text" name="lineWidthInput" id="lineWidth" class="textBox"/>
+                              </p>
+                              <p>
+                                  <input type="checkbox" name="fillCircle" class="checkBox"/> Fill the circle
+                              </p>
+                              <p>
+                                  <input type="checkbox" name="useArc" class="checkBox"/> Use Arc for Drawing
+                              </p>
+                          </fieldset>
+                          <fieldset>
+                              <legend> Drawing Controls</legend>
+                              <p>
+                                  <input type="checkbox" name="cleanTheCanvas" class="checkBox"/> Clear Canvas before drawing
+                              </p>
+                              <a href="#" class="small round button" id="drawCircle">Draw Circle</a>
+                              <a href="#" class="small round button" id="clearCanvas">Clear Canvas</a>
+                              <a href="#" class="small round button" id="demo">Demo</a>
+                          </fieldset>
+
+                      </form>
+                  </div>
+                  <div id="drawingArea" class="large-9 columns">&nbsp;
+                      <canvas id="drawingCanvas" width="520" height="520">&nbsp;</canvas>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script src="js/messageUtils.js"></script>
+    <script src="js/element.js"></script>
+    <script src="js/stack.js"></script>
+    <script src="js/stackDemo.js"></script>
+    <script src="js/queue.js"></script>
+    <script src="js/queueDemo.js"></script>
+    <script src="js/linkedList.js"></script>
+    <script src="js/linkedListDemo.js"></script>
+    <script src="js/factorial.js"></script>
+    <script src="js/anagram.js"></script>
+    <script src="js/circle.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+</html>

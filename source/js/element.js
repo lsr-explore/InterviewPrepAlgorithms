@@ -7,3 +7,6 @@ function element(val) {
 
     this.content = val;
 }
+
+// comment out when running tests from html page
+//module.exports =  element;

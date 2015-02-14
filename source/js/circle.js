@@ -1,11 +1,6 @@
 /**
  * Created by laurie on 2/8/2015.
  */
-
-
-
-
-
 function drawCircle(properties) {
     var canvasArea = document.getElementById("drawingCanvas");
 
@@ -14,13 +9,14 @@ function drawCircle(properties) {
         ctx.clearRect(0, 0, canvasArea.width, canvasArea.height);
     }
     ctx.lineWidth = properties.lineWidth;
-    ctx.strokeStyle = "blue";
-    ctx.fillStyle = '#8ED6FF';
-    //ctx.lineCap = "round";
-    //ctx.lineJoin = "round";
+    ctx.strokeStyle = properties.lineColor;
+    ctx.fillStyle = properties.fillColor;
     ctx.shadowBlur = properties.blur;
-    ctx.shadowColor = "blue";
-    //ctx.translate(2,2);
+    ctx.shadowColor = properties.blurColor;
+
+    // Other properties, not yet set
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
 
     ctx.beginPath();
 
@@ -38,16 +34,23 @@ function drawCircle(properties) {
 }
 
 function drawCircleUsingPoints(properties, ctx) {
+
     for (angle = 0; angle <= 360; angle++) {
+
         var angleInRadians = (angle * Math.PI) / 180; // Convert to Radians
         x = Math.floor(properties.xOrigin + properties.radius * Math.sin(angleInRadians) );
         y = Math.floor(properties.yOrigin + properties.radius * Math.cos(angleInRadians) );
+
+        //ctx.arc(x, y, 1, 0, 2 * Math.PI, false);
         ctx.lineTo(x, y);
-        ctx.stroke();
+
+        //ctx.strokeRect(x,y,1,1);
     }
+    ctx.stroke();
 }
 
 function drawCircleUsingArc(properties, ctx) {
+    ctx.beginPath();
     ctx.arc(properties.xOrigin, properties.yOrigin, properties.radius, 0, 2 * Math.PI, false);
     ctx.stroke();
 }
@@ -67,7 +70,7 @@ function getFormData() {
         radiusVal = 200;
     }
 
-    if (xOriginVal === undefined || isNaN(xOriginVal)) {
+    if (xOriginVal === undefined | isNaN(xOriginVal)) {
         xOriginVal = 250;
     }
 
@@ -83,6 +86,10 @@ function getFormData() {
         lineWidthVal = 0;
     }
 
+    // For now - hard code these values
+    var fillColorVal = "yellow";
+    var lineColorVal = "black";
+    var blurColorVal = "grey";
     return {
         radius: radiusVal,
         xOrigin: xOriginVal,
@@ -91,7 +98,10 @@ function getFormData() {
         clear: cleanCanvas,
         blur: blurVal,
         lineWidth : lineWidthVal,
-        useArc : useArc
+        useArc : useArc,
+        lineColor: lineColorVal,
+        fillColor: fillColorVal,
+        blurColor: blurColorVal
     }
 
 }
@@ -107,24 +117,61 @@ function clearCanvasOnClick() {
 
     var ctx = canvasArea.getContext("2d");
     ctx.clearRect(0, 0, canvasArea.width, canvasArea.height);
+    return false;
 }
 
-function resizeCanvas() {
-    inMemCanvas.width = canvasRef.width;
-    inMemCanvas.height = canvasRef.height;
-    inMemCtx.drawImage(canvasRef, 0, 0);
-    canvasRef.width = 1000;
-    ctx.drawImage(inMemCanvas, 0, 0);
+function demoOnClick () {
+    clearCanvasOnClick();
+    drawCircle1(defaultProperties());
+    drawCircle2(defaultProperties());
+    drawCircle3(defaultProperties());
+    drawCircle4(defaultProperties());
+    return false;
 }
 
-function mainApp() {
-    var draw = document.getElementById("drawCircle");
-    draw.onclick = drawCircleOnClick;
 
-    var clear = document.getElementById("clearCanvas");
-    clear.onclick = clearCanvasOnClick;
+/**********************
+ Canned demo cases
+ **********************/
+
+function defaultProperties () {
+    return {
+        radius: 50,
+        xOrigin: 100,
+        yOrigin: 100,
+        filled: false,
+        clear: false,
+        blur: 0,
+        lineWidth : 2,
+        useArc : false,
+        fillColor: "yellow",
+        lineColor: "black",
+        blurColor: "grey"
+    };
 }
 
-$(document).ready(function() {
-   mainApp();
-});
+function drawCircle1(properties) {
+
+    drawCircle(properties);
+}
+
+function drawCircle2(properties) {
+    properties.xOrigin = 300;
+    properties.blur = 4;
+
+    drawCircle(properties);
+}
+
+function drawCircle3(properties) {
+    properties.yOrigin = 300;
+    properties.useArc = true;
+    drawCircle(properties);
+}
+
+function drawCircle4(properties) {
+    properties.xOrigin = 300;
+    properties.yOrigin = 300;
+    properties.useArc = true;
+    properties.blur = 4;
+    drawCircle(properties);
+}
