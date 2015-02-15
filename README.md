@@ -26,5 +26,17 @@ These are examples of algorithms and data structures to review when preparing fo
   
 ### References:
   * [Google Candidate Coaching Hangout - Video] (https://www.youtube.com/watch?v=oWbUtlUhwa8)
+    Take special note at time 13:00 - discussion of how to approach underspecified problems.
+  * [PairUpToCode Exercises] (http://www.pairuptocode.com/) - Small set of HTML, Javascript exercises
+  * [JS Assessment] (https://github.com/rmurphey/js-assessment) - Github respository of javascript programs with failing/incomplete tests.
+  * [Project Euler] (https://projecteuler.net/) - An enormous number of problems to solve.  Write the code, submit the answer, repeat.
+  * [Interview Cake] (https://www.interviewcake.com/) - Problems posted online or delivered weekly to your email.
+
+### Books:
+  * [Elements of Programming Interviews] (http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)   ** [Elements of Programming Interviews Website] (http://elementsofprogramminginterviews.com/)
+
+
+
+
     
-  Take special note at time 13:00 - discussion of how to approach underspecified problems.
+  
