@@ -32,11 +32,16 @@ Resources for preparing for the algorithm portion of Front End job interviews
   * [Project Euler] (https://projecteuler.net/) - An enormous number of problems to solve.  Write the code, submit the answer, repeat.
   * [Interview Cake] (https://www.interviewcake.com/) - Problems posted online or delivered weekly to your email.
 
-### Books:
+### Books - Tech Interviews
   * [Elements of Programming Interviews] (http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)      
       * Elements of Programming Interviews - [Solutions] (http://elementsofprogramminginterviews.com/solutions/)
   * [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X/ref=zg_bs_2578_1) 
   * [Programming Interviews Exposed](http://www.amazon.com/Programming-Interviews-Exposed-Secrets-Programmer/dp/047012167X)
+
+### Books - Algorithms
+  * [Introduction to Algorithms](http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1424027412&sr=8-1&keywords=algorithm) - by by Thomas H. Cormen  (Author), Charles E. Leiserson  (Author), Ronald L. Rivest  (Author), Clifford Stein - 31 July, 2011 - Addison Wesley
+  * [Algorithms - 4th Edition ](http://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_1?s=books&ie=UTF8&qid=1424027540&sr=1-1) - - by Robert Sedgewick, Kevin Wayne - 19 March, 2011 - MIT Press
+  * [Algorithms in a Nutshell](http://www.amazon.com/Algorithms-Nutshell-OReilly-George-Heineman-ebook/dp/B0043D2EGI/ref=sr_1_1?s=books&ie=UTF8&qid=1424027824&sr=1-1&keywords=algorithms+in+a+nutshell) - by George T. Heineman and Stanley Selkow - 30 june, 2009 - O'Reilly
   
 ### Online practice:
   * [Hacker Rank](https://www.hackerrank.com/)
