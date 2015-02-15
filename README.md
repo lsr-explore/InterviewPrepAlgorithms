@@ -25,7 +25,7 @@ Resources for preparing for the algorithm portion of Front End job interviews
   * Address extensibility
   
 ### Coaching: 
-  * [Interview Kickstart] (http://interviewkickstart.com/) - SF Bay classes focused on the technical interview
+  * [Interview Kickstart] (http://interviewkickstart.com/) - SF Bay classes focused on the technical interview.
       Founded by Soham Mehta, one of the first five engineers at Box.
   * [Career Cup] (http://www.careercup.com/interview) - $150+/hour mock interviews
   * [Interview Coaching] (http://www.impactinterview.com/) - Coaching in cities around the country.
