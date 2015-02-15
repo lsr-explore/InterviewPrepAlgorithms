@@ -60,5 +60,6 @@ Resources for preparing for the algorithm portion of Front End job interviews
 ### Example questions posted by interviewees
   * [Crazy for Code] (http://www.crazyforcode.com/interview-experiences/)
   * [Glass Door - Interviews] (http://www.glassdoor.com/Interview/index.htm)
+  * [Coder Career] (http://codercareer.blogspot.com/)
     
   
