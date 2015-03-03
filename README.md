@@ -11,6 +11,12 @@ Resources for preparing for the algorithm portion of Front End job interviews
   * What are the outputs?
   * Any special considerations (should the algorithm be stable?)
   * If you don't know the formula or definition of a term, ask.
+  * Constraints
+  * Observations - Any observations, (e.g. At most one letter can exist an odd number of times in a palindrome)
+  * Test cases - List test cases to consider
+  * Algorithm - Be able to describe the algorithm in steps
+  * Code - Sketch out the solution in pseudo code.
+  * Complexity - Be able to describe the complexity of your solution.
     
 ### Conditions to keep in mind when approaching the problem:
   * Boundary condition
@@ -39,6 +45,7 @@ Resources for preparing for the algorithm portion of Front End job interviews
   * [Project Euler] (https://projecteuler.net/) - An enormous number of problems to solve.  Write the code, submit the answer, repeat.
   * [Interview Cake] (https://www.interviewcake.com/) - Problems posted online or delivered weekly to your email.
   * [Algorithm Design Canvas] (http://www.hiredintech.com/algorithm-design/the-algorithm-design-canvas) - Tech recruiter site with many helpful resources
+  * [Technical Interview Cheat Sheet](https://gist.github.com/TSiege/cbb0507082bb18ff7e4b) 
 
 ### Books - Tech Interviews
   * [Elements of Programming Interviews] (http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)      
