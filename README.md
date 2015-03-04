@@ -57,9 +57,9 @@ Resources for preparing for the algorithm portion of Front End job interviews
   * [Introduction to Algorithms] (http://www.amazon.com/Introduction-Algorithms-3rd-Thomas-Cormen/dp/0262033844/ref=sr_1_1?ie=UTF8&qid=1424027412&sr=8-1&keywords=algorithm) - by by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein - 31 July, 2011 - Addison Wesley
   * [Algorithms - 4th Edition ] (http://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/ref=sr_1_1?s=books&ie=UTF8&qid=1424027540&sr=1-1) - - by Robert Sedgewick, Kevin Wayne - 19 March, 2011 - MIT Press
   * [Algorithms in a Nutshell] (http://www.amazon.com/Algorithms-Nutshell-OReilly-George-Heineman-ebook/dp/B0043D2EGI/ref=sr_1_1?s=books&ie=UTF8&qid=1424027824&sr=1-1&keywords=algorithms+in+a+nutshell) - by George T. Heineman and Stanley Selkow - 30 june, 2009 - O'Reilly
-  * [Algoirthm Design Manual](http://www.amazon.com/exec/obidos/ASIN/1848000693/thealgorithmrepo) 
-  * * [Algorithm Design Manual - PDF Version](http://sist.sysu.edu.cn/~isslxm/DSA/textbook/Skiena.-.TheAlgorithmDesignManual.pdf)
-  * * [Alogirthm Design Manual - Website](http://www3.cs.stonybrook.edu/~algorith/)
+  * [Algoirthm Design Manual](http://www.amazon.com/exec/obidos/ASIN/1848000693/thealgorithmrepo) - by Steven S. Skiena - 2nd Edition - 2008, Springer
+    * [Algorithm Design Manual - PDF Version](http://sist.sysu.edu.cn/~isslxm/DSA/textbook/Skiena.-.TheAlgorithmDesignManual.pdf)
+    * [Alogirthm Design Manual - Website](http://www3.cs.stonybrook.edu/~algorith/)
   
 ### Online practice:
   * [Hacker Rank] (https://www.hackerrank.com/)
