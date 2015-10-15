@@ -21,7 +21,7 @@ Resources for preparing for the algorithm portion of Front End job interviews.
   * Constraints
   
 ##### Identify test cases/conditions
-    Depending on the question, consider the standard case as well as boundary cases.
+  Depending on the question, consider the standard case as well as boundary cases.
 
   * Failure cases - Where the expected solution doesn't exist
   * Variety - wildly varying values or all values are the same
@@ -31,7 +31,7 @@ Resources for preparing for the algorithm portion of Front End job interviews.
   * Boundary conditions
 
 ##### Design the solution
-    Sketch out the design. If you know there is a more elegant solution, but you only know how to do the brute force approach, acknowledge that.
+  Sketch out the design. If you know there is a more elegant solution, but you only know how to do the brute force approach, acknowledge that.
     
   * Observations - Any observations, (e.g. At most one letter can exist an odd number of times in a palindrome)
   * Algorithm - Be able to describe the algorithm in steps
