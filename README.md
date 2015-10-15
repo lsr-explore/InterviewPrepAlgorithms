@@ -1,10 +1,17 @@
 # InterviewPrepAlgorithms
 
+Resources for preparing for the algorithm portion of Front End job interviews.
 
-Resources for preparing for the algorithm portion of Front End job interviews
-
-### General Scoping
-  Before diving in, make sure you understand the scope of the problem you are being asked to solve
+### Approach to solution finding
+  Treat the interview as if it was a collaboration session, and walk through as if you were solving the problem at work.  Most importantly talk it out and let the interviewer know your thought process.  Use these steps.
+  * Understand the question
+  * Identify test cases/conditions
+  * Design the solution
+  * Implement the solution
+  * Review the solution
+  
+##### Understand the question
+  Make sure you are in sync with the interviewer on the expectations.  Verify any assumptions you may have.
   
   * What is the expected behavior
   * What are the inputs?  (data structure, units, etc.)
@@ -12,23 +19,42 @@ Resources for preparing for the algorithm portion of Front End job interviews
   * Any special considerations (should the algorithm be stable?)
   * If you don't know the formula or definition of a term, ask.
   * Constraints
-  * Observations - Any observations, (e.g. At most one letter can exist an odd number of times in a palindrome)
-  * Test cases - List test cases to consider
-  * Algorithm - Be able to describe the algorithm in steps
-  * Code - Sketch out the solution in pseudo code.
-  * Complexity - Be able to describe the complexity of your solution.
-    
-### Conditions to keep in mind when approaching the problem:
-  * Boundary condition
-  * Handling of duplicates
-  * Null conditions
   
-### Items to include:
-  * Write out example test data
-  * Be able to describe alternative approaches
-  * Address performance/efficiency
-  * Address scalability
-  * Address extensibility
+##### Identify test cases/conditions
+    Depending on the question, consider the standard case as well as boundary cases.
+
+  * Failure cases - Where the expected solution doesn't exist
+  * Variety - wildly varying values or all values are the same
+  * Number of elements - small or very large set
+  * Null conditions
+  * Duplicate conditions
+  * Boundary conditions
+
+##### Design the solution
+    Sketch out the design. If you know there is a more elegant solution, but you only know how to do the brute force approach, acknowledge that.
+    
+  * Observations - Any observations, (e.g. At most one letter can exist an odd number of times in a palindrome)
+  * Algorithm - Be able to describe the algorithm in steps
+  * Code - Sketch out the solution in pseudo code. 
+  * Complexity - Be able to describe the complexity of your solution.
+  * Consider alternatives - Describe why you are rejecting a certain approach.
+  * What data structures will be used.
+  
+##### Implement the solution
+  * Write the solution
+  * Let the interview know of any utility methods that you don't feel need to be coded (e.g. swap)
+  
+##### Review the solution
+  * Walk through the solution with a test case showing intermediate output.  Walking through, you may have an idea for an improvement or may identify an error.  Share these with the interviewer.
+  
+  * Address qualities
+    * Performance
+    * Efficiency
+    * Scalability
+    * Extensibility
+    * Complexity
+    * Memory usage
+    * Potential improvements
   
 ### Coaching: 
   * [Interview Kickstart] (http://interviewkickstart.com/) - SF Bay classes focused on the technical interview.
@@ -37,7 +63,6 @@ Resources for preparing for the algorithm portion of Front End job interviews
   * [Interview Coaching] (http://www.impactinterview.com/) - Coaching in cities around the country.
   * [Interview Academy] (http://www.interviewacademy.io/) - 4 week course in Mountain view, CA.  
       Founded by a Google employee
-
 
 ### References:
   * [Google Candidate Coaching Hangout - Video] (https://www.youtube.com/watch?v=oWbUtlUhwa8)
@@ -68,7 +93,6 @@ Resources for preparing for the algorithm portion of Front End job interviews
   * [JS Assessment] (https://github.com/rmurphey/js-assessment) - Github respository of javascript programs with failing/incomplete tests.
   * [Project Euler] (https://projecteuler.net/) - An enormous number of problems to solve.  Write the code, submit the answer, repeat.
   * [Interview Cake] (https://www.interviewcake.com/) - Problems posted online or delivered weekly to your email.
-
 
 ### Example questions posted by interviewees
   * [Crazy for Code] (http://www.crazyforcode.com/interview-experiences/)
