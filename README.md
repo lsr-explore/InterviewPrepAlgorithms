@@ -35,15 +35,13 @@ Resources for preparing for the algorithm portion of Front End job interviews
       Founded by Soham Mehta, one of the first five engineers at Box.
   * [Career Cup] (http://www.careercup.com/interview) - $150+/hour mock interviews
   * [Interview Coaching] (http://www.impactinterview.com/) - Coaching in cities around the country.
+  * [Interview Academy] (http://www.interviewacademy.io/) - 4 week course in Mountain view, CA.  
+      Founded by a Google employee
 
 
 ### References:
   * [Google Candidate Coaching Hangout - Video] (https://www.youtube.com/watch?v=oWbUtlUhwa8)
     Take special note at time 13:00 - discussion of how to approach underspecified problems.
-  * [PairUpToCode Exercises] (http://www.pairuptocode.com/) - Small set of HTML, Javascript exercises
-  * [JS Assessment] (https://github.com/rmurphey/js-assessment) - Github respository of javascript programs with failing/incomplete tests.
-  * [Project Euler] (https://projecteuler.net/) - An enormous number of problems to solve.  Write the code, submit the answer, repeat.
-  * [Interview Cake] (https://www.interviewcake.com/) - Problems posted online or delivered weekly to your email.
   * [Algorithm Design Canvas] (http://www.hiredintech.com/algorithm-design/the-algorithm-design-canvas) - Tech recruiter site with many helpful resources
   * [Technical Interview Cheat Sheet](https://gist.github.com/TSiege/cbb0507082bb18ff7e4b) 
 
@@ -63,15 +61,19 @@ Resources for preparing for the algorithm portion of Front End job interviews
   
 ### Online practice:
   * [Hacker Rank] (https://www.hackerrank.com/)
+  * [Geeks for Geeks] (http://www.geeksforgeeks.org/) - Excellent collection of algorithm concepts, quizzes, and experiences at a variety of tech companies
   * [Code Chef] (http://www.codechef.com/)
   * [Top Coder] (http://www.topcoder.com/) - Download Arena for the practice room
+  * [PairUpToCode Exercises] (http://www.pairuptocode.com/) - Small set of HTML, Javascript exercises
+  * [JS Assessment] (https://github.com/rmurphey/js-assessment) - Github respository of javascript programs with failing/incomplete tests.
+  * [Project Euler] (https://projecteuler.net/) - An enormous number of problems to solve.  Write the code, submit the answer, repeat.
+  * [Interview Cake] (https://www.interviewcake.com/) - Problems posted online or delivered weekly to your email.
 
 
 ### Example questions posted by interviewees
   * [Crazy for Code] (http://www.crazyforcode.com/interview-experiences/)
   * [Glass Door - Interviews] (http://www.glassdoor.com/Interview/index.htm)
   * [Coder Career] (http://codercareer.blogspot.com/)
-  
   
 ### Complexity Analysis references
   * [Big O Cheat Sheet] (http://bigocheatsheet.com/) - Big O complexities for basic algorithms and data structures
