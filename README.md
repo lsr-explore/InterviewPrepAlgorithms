@@ -69,6 +69,7 @@ Resources for preparing for the algorithm portion of Front End job interviews.
     Take special note at time 13:00 - discussion of how to approach underspecified problems.
   * [Algorithm Design Canvas] (http://www.hiredintech.com/algorithm-design/the-algorithm-design-canvas) - Tech recruiter site with many helpful resources
   * [Technical Interview Cheat Sheet](https://gist.github.com/TSiege/cbb0507082bb18ff7e4b) 
+  * [Sorting Algorithms Animations](http://www.sorting-algorithms.com/)
 
 ### Books - Tech Interviews
   * [Elements of Programming Interviews] (http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)      
