@@ -103,4 +103,11 @@ Resources for preparing for the algorithm portion of Front End job interviews.
   * [Big O Cheat Sheet] (http://bigocheatsheet.com/) - Big O complexities for basic algorithms and data structures
   * [MIT paper on Big O Notation](http://web.mit.edu/16.070/www/lecture/big_o.pdf) - Short overview of Big O notation.
     
+### Papers
+  * [MapReduce: Simplified Data Processing on Large Clusters](http://research.google.com/archive/mapreduce.html) - Jeffrey Dean and Sanjay Ghemawat
+  * [Bigtable: A Distributed Storage System for Structured Data](http://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf) - Fay Chang, Jeffrey Dean, Sanjay Ghemawat, Wilson C.  Hsieh, Deborah A.  Wallach Mike Burrows, Tushar Chandra, Andrew Fikes, Robert E. Grube
+  * [Finding a needle in Haystack: Facebook’s photo storage](https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf) - Doug Beaver, Sanjeev Kumar, Harry C. Li, Jason Sobel, Peter Vajgel
+  * [Amazon.com Recommendations Item-to-Item Collaborative Filtering](http://www.cs.umd.edu/~samir/498/Amazon-Recommendations.pdf) - Greg Linden, Brent Smith, and Jeremy York • 
+Amazon.com
+  * [Distributed Caching with Memcached](http://www.linuxjournal.com/article/7451) - Aug 01, 2004  By Brad Fitzpatrick
   
