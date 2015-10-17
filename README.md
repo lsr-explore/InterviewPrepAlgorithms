@@ -1,4 +1,4 @@
-# InterviewPrepAlgorithms
+# Interview Prep - Algorithms
 
 Resources for preparing for the algorithm portion of Front End job interviews.
 
@@ -70,6 +70,9 @@ Resources for preparing for the algorithm portion of Front End job interviews.
   * [Algorithm Design Canvas] (http://www.hiredintech.com/algorithm-design/the-algorithm-design-canvas) - Tech recruiter site with many helpful resources
   * [Technical Interview Cheat Sheet](https://gist.github.com/TSiege/cbb0507082bb18ff7e4b) 
   * [Sorting Algorithms Animations](http://www.sorting-algorithms.com/)
+  * [Interview Prep Wiki - Review Sheets](https://github.com/golgistudio/InterviewPrepAlgorithms/wiki)
+  * [Data Structures Visualizations](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+  * [Visualizing Algorithms](http://visualgo.net/)
 
 ### Books - Tech Interviews
   * [Elements of Programming Interviews] (http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)      
