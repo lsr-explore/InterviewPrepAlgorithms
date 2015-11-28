@@ -63,6 +63,12 @@ Resources for preparing for the algorithm portion of Front End job interviews.
   * [Interview Coaching] (http://www.impactinterview.com/) - Coaching in cities around the country.
   * [Interview Academy] (http://www.interviewacademy.io/) - 4 week course in Mountain view, CA.  
       Founded by a Google employee
+  * [Tutor Universe](www.tutoruniverse.com) – Tutors - Not specifically interview oriented.
+  * [Code Mendor](www.codementor.com) - Mentors, hourly or long term.  Not specifically interview oriented.
+
+### Mock Interviews:
+  * [Skillbrush](http://skillbrush.wix.com/skillbrush) - Schedule an online mock interview with an expert
+  * [Pramp](https://pramp.com/) - Peer to Peer online mock interviews
 
 ### References:
   * [Google Candidate Coaching Hangout - Video] (https://www.youtube.com/watch?v=oWbUtlUhwa8)
@@ -73,6 +79,7 @@ Resources for preparing for the algorithm portion of Front End job interviews.
   * [Interview Prep Wiki - Review Sheets](https://github.com/golgistudio/InterviewPrepAlgorithms/wiki)
   * [Data Structures Visualizations](http://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
   * [Visualizing Algorithms](http://visualgo.net/)
+  * [DZone Refcardz](refcardz.dzone.com) – summary cheat sheets for dozens of languages
 
 ### Books - Tech Interviews
   * [Elements of Programming Interviews] (http://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)      
@@ -90,6 +97,7 @@ Resources for preparing for the algorithm portion of Front End job interviews.
   
 ### Online practice:
   * [Hacker Rank] (https://www.hackerrank.com/)
+  * [Code Eval](www.codeeval.com) – Company linked challenges
   * [Geeks for Geeks] (http://www.geeksforgeeks.org/) - Excellent collection of algorithm concepts, quizzes, and experiences at a variety of tech companies
   * [Code Chef] (http://www.codechef.com/)
   * [Top Coder] (http://www.topcoder.com/) - Download Arena for the practice room
@@ -97,6 +105,9 @@ Resources for preparing for the algorithm portion of Front End job interviews.
   * [JS Assessment] (https://github.com/rmurphey/js-assessment) - Github respository of javascript programs with failing/incomplete tests.
   * [Project Euler] (https://projecteuler.net/) - An enormous number of problems to solve.  Write the code, submit the answer, repeat.
   * [Interview Cake] (https://www.interviewcake.com/) - Problems posted online or delivered weekly to your email.
+  * [Coding Bad](www.codingbat.com) – Interactive java and python problems
+  * [Leet Code](www.leetcode.com) – Interactive coding in a variety of languages
+  * [Code Wars](www.codewars.com) – Similar to hacker rank
 
 ### Example questions posted by interviewees
   * [Crazy for Code] (http://www.crazyforcode.com/interview-experiences/)
@@ -115,3 +126,7 @@ Resources for preparing for the algorithm portion of Front End job interviews.
 Amazon.com
   * [Distributed Caching with Memcached](http://www.linuxjournal.com/article/7451) - Aug 01, 2004  By Brad Fitzpatrick
   
+### Videos
+  * [Tim Roughgarden](http://theory.stanford.edu/~tim/talks.html) - Associate Computer Science Professor at Stanford
+  * [Tushar Roy](https://www.youtube.com/user/tusharroy2525) - Tushar walkt through different problem sets.
+  * [Krispy Karim](https://www.youtube.com/user/krispykarim/playlists) - Variety of you tube playlists on Dynamic Programming and other algorithms.
