@@ -130,3 +130,8 @@ Amazon.com
   * [Tim Roughgarden](http://theory.stanford.edu/~tim/talks.html) - Associate Computer Science Professor at Stanford
   * [Tushar Roy](https://www.youtube.com/user/tusharroy2525) - Tushar walkt through different problem sets.
   * [Krispy Karim](https://www.youtube.com/user/krispykarim/playlists) - Variety of you tube playlists on Dynamic Programming and other algorithms.
+  
+
+### Visualizing Algorithms
+  * [Algomation](http://www.algomation.com/) - Create algorithms in javascript with visualizations.
+  * [Visual Go](http://visualgo.net/) - Step through animations of common algorithms.
